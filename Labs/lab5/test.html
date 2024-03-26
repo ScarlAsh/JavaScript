@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>colorslide</title>
+</head>
+<body>
+    <div id="test"></div>
+
+
+    <script>
+        var test = document.querySelector("#test");
+        let rgbString = getComputedStyle(test).backgroundColor;
+        let rgbValues = rgbString.match(/\d+/g).map(Number);
+        let x = rgbValues[0];
+        let y = rgbValues[1];
+        let z = rgbValues[2];
+
+        setInterval(function(){
+            x-=10;
+            y-=10;
+            z-=10;
+            test.style.backgroundColor = `rgb(`+x +`,`+ y +`,`+z +`)`;
+        } , 500)
+
+    </script>
+</body>
+</html>

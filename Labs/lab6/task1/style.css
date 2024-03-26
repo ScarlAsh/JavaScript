@@ -1,0 +1,29 @@
+img{
+    width:200px;
+    height:200px;
+}
+
+textarea{
+    margin-left:30%;
+}
+
+button{
+    background-color: rgb(58, 131, 131);
+    border: none;
+    outline: none;
+    width:  100px;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 35%;
+}
+
+span{
+    display:block;
+    width:100%;
+    text-align: center;
+    margin: 50px;
+}

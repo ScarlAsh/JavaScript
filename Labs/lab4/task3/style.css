@@ -1,0 +1,23 @@
+*{
+    margin:0;
+}
+body{
+    background-color: rgb(199, 166, 230);
+}
+#scrollContainer{
+    width: 90%;
+    background-color: bisque;
+}
+
+button{
+    border: none;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgb(184, 220, 208);
+    padding: 15px;
+}
